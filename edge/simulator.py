@@ -386,7 +386,6 @@ def build_payload(
 ) -> Dict[str, Any]:
     """Enrich a raw BirdNET detection dict with metadata before sending."""
     # Use simulation time if demo acceleration is enabled
-    global _demo_simulation_time, _demo_time_acceleration_enabled
     if _demo_time_acceleration_enabled:
         timestamp = datetime.fromtimestamp(_demo_simulation_time, tz=timezone.utc).isoformat()
     else:
@@ -441,7 +440,6 @@ def build_binary_payload(
     
     dev_id_bytes = device_id.encode('utf-8')[:4].ljust(4, b'\x00')
     # Use simulation time if demo acceleration is enabled
-    global _demo_simulation_time, _demo_time_acceleration_enabled
     if _demo_time_acceleration_enabled:
         ts = _demo_simulation_time
     else:
