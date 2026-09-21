@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+data/echosense.db
+data/echosense.db-shm
+data/echosense.db-wal/
+*.db
+*.csv
+*.log
+.DS_Store
