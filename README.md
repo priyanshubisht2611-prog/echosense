@@ -1,5 +1,14 @@
 # 🦉 EchoSense
 
+<p align="left">
+  <a href="https://github.com/priyanshubisht2611-prog/echosense/actions/workflows/ci.yml">
+    <img src="https://github.com/priyanshubisht2611-prog/echosense/actions/workflows/ci.yml/badge.svg" alt="CI Pipeline" />
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+  </a>
+</p>
+
 **Real-time, longitudinal biodiversity monitoring at the edge.**
 EchoSense measures the pulse of ecosystems by capturing, identifying, and analyzing wildlife soundscapes in remote environments. Currently optimized for the wildlife of the **Kumaon Himalayas, Uttarakhand**, EchoSense provides an end-to-end acoustic monitoring framework that extends from physical ESP32 edge hardware to a comprehensive analytical dashboard.
 
